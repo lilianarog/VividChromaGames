@@ -1,0 +1,58 @@
+# Perfiles de Usuario para los Dashboards
+
+## Dashboard del Dueño
+
+### Usuario
+
+Director de Vivid Chroma Games.
+
+### Objetivo
+
+Monitorear el desempeño comercial de la línea de mercancía infantil y apoyar la toma de decisiones estratégicas.
+
+### Información requerida
+
+- Ingresos totales.
+- Utilidad obtenida.
+- Productos más vendidos.
+- Ventas por categoría.
+- Ventas por municipio.
+- Rendimiento mensual.
+- Alertas de inventario bajo.
+- Productos con menor rotación.
+
+### Tipo de visualizaciones
+
+- Tarjetas KPI.
+- Barras.
+- Líneas.
+- Mapa de ventas.
+- Ranking de productos.
+
+---
+
+## Dashboard del Cliente (Padre)
+
+### Usuario
+
+Padre o tutor del jugador.
+
+### Objetivo
+
+Consultar la actividad del menor y el historial de compras realizadas.
+
+### Información requerida
+
+- Tiempo jugado durante la semana.
+- Productos adquiridos.
+- Historial de compras.
+- Recompensas obtenidas.
+- Cupones disponibles.
+- Productos recomendados.
+
+### Tipo de visualizaciones
+
+- Indicadores simples.
+- Historial cronológico.
+- Barras de progreso.
+- Tarjetas informativas.
