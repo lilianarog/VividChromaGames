@@ -1,0 +1,9 @@
+producto_id,nombre,categoria,precio,costo
+PROD-01,Cómic Físico,Lectura,150.0,45.0
+PROD-02,Cómic Virtual,Lectura,80.0,5.0
+PROD-03,Peluche Personaje Coleccionable,Peluches,280.0,90.0
+PROD-04,Botella de Agua,Accesorios,120.0,35.0
+PROD-05,Mochila Ergonómica,Accesorios,450.0,180.0
+PROD-06,Lapicera Colección,Papelería,95.0,25.0
+PROD-07,Libreta de Tareas,Papelería,110.0,30.0
+PROD-08,Planilla Stickers,Papelería,35.0,8.0
