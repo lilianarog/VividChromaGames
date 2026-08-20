@@ -7,23 +7,23 @@ El propósito principal de esta simulación fue explorar la manera en que las co
 
 Se desarrolló un notebook básico en el que se importaron únicamente las librerías necesarias para crear esta primera simulación y generar las visualizaciones correspondientes.
 
-![importacion,imagen5](ruta de img5-sim)
+![importacion,imagen5](Simulaciones/images-sim/img5-sim.png)
 
 Posteriormente, las coordenadas fueron colocadas directamente en una celda del notebook para construir un pequeño conjunto de datos de manera manual. Una vez validado su funcionamiento, este dataset fue exportado para posteriormente cargarlo nuevamente y utilizarlo como base en las diferentes simulaciones realizadas.
 
-![importacion,imagen4](ruta de img4-sim)
+![importacion,imagen4](Simulaciones/images-sim/img4-sim.png)
 
 La primera visualización permitió observar un mapa en el que las **ventas** fueron representadas mediante marcadores de color morado. Además, el tamaño de cada marcador varía dependiendo de la cantidad de ventas registradas en esa zona, lo que facilita identificar de manera rápida las áreas con mayor actividad.
 
-![importacion,imagen3](ruta de img3-sim)
+![importacion,imagen3](Simulaciones/images-sim/img3-sim.png)
 
 También se generó una representación gráfica donde se comparan las **instalaciones** del videojuego con las **compras** realizadas. Esta visualización permitió tener una primera idea de la relación existente entre ambos indicadores y cómo podrían analizarse posteriormente con datos reales.
 
-![importacion,imagen2](ruta de img2-sim)
+![importacion,imagen2](Simulaciones/images-sim/img2-sim.png)
 
 Finalmente, se realizó un segundo mapa de prueba enfocado exclusivamente en las ventas. Este ejercicio permitió comprobar diferentes formas de representar la información geográfica y evaluar cuál sería la más clara y útil para la interpretación de los datos.
 
-![importacion,imagen1](ruta de img1-sim)
+![importacion,imagen1](Simulaciones/images-sim/img1-sim.png)
 
 # ¿Por qué nos fue útil esta simulación?
 
