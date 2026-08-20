@@ -38,8 +38,10 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 | 9 | Diccionario de datos | Significado de cada columna del dataset maestro | [docs/Diccionario-de-Datos.md](docs/Diccionario-de-Datos.md) |
 | 9 | Reglas de simulación | Cómo se generaron los datos sintéticos de venta | [docs/Reglas-de-Simulación.md](docs/Reglas-de-Simulación.md) |
 | 10 | Script generador | Código que produjo el dataset crudo | `src/generador.py` (notebooks/generador_csv.ipynb) |
-| 11 | Dataset original | Los 4 CSV/XLS crudos, tal como se recibieron | `data/crudos/` (ProcesoETL/datos-antes/jugadores-sucio.csv) (ProcesoETL/datos-antes/productos-sucio.csv)(ProcesoETL/datos-antes/ubicaciones-sucio.csv)(ProcesoETL/datos-antes/ventas_sucias-sucio.csv)|
-| 12 | Dataset procesado | Los 5 CSV limpios que produce el ETL | `data/limpios/` *(Notebook-etl/jugadores_limpio.csv)* *(Notebook-etl/jugadores_limpio.csv)* *(Notebook-etl/productos_limpio.csv)* *(Notebook-etl/ubicaciones_limpio.csv)* *(Notebook-etl/ventas_limpio.csv)*|
+| # | Descripción | Detalle | Enlaces / Rutas |
+|---|---|---|---|
+| 11| Dataset original | Los 4 CSV/XLS crudos, tal como se recibieron | • [`jugadores-sucio.csv`](ProcesoETL/datos-antes/jugadores-sucio.csv)<br>• [`productos-sucio.csv`](ProcesoETL/datos-antes/productos-sucio.csv)<br>• [`ubicaciones-sucio.csv`](ProcesoETL/datos-antes/ubicaciones-sucio.csv)<br>• [`ventas_sucias-sucio.csv`](ProcesoETL/datos-antes/ventas_sucias-sucio.csv) |
+| 12| Dataset procesado| Los CSV limpios que produce el ETL | • [`jugadores_limpio.csv`](Notebook-etl/jugadores_limpio.csv)<br>• [`productos_limpio.csv`](Notebook-etl/productos_limpio.csv)<br>• [`ubicaciones_limpio.csv`](Notebook-etl/ubicaciones_limpio.csv)<br>• [`ventas_limpio.csv`](Notebook-etl/ventas_limpio.csv) |
 | 13 | Justificación de los datos / Jugadores | Por qué el perfil de jugadores simulado es representativo | [docs/JUGADORES.md](docs/JUGADORES.md) · [docs/Justificación-de-los-Datos.md](docs/Justificación-de-los-Datos.md) |
 | 14 | Clasificación de tipos de datos | Tipo de dato de cada campo (categórico, numérico, fecha, etc.) | [docs/clasificacion-tipos-datos.md](docs/clasificacion-tipos-datos.md) |
 
