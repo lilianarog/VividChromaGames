@@ -29,50 +29,45 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 | 4 | Preguntas de negocio | Las preguntas que el EDA y los dashboards responden (¿qué se vende más? ¿dónde? ¿quién compra?) | [docs/Preguntas-de-negocio.md](docs/Preguntas-de-negocio.md) |
 | 5 | Identificación de stakeholders | Quién usa cada entregable: el dueño (decisiones), el jugador/cliente (su cuenta) | [docs/Identificación-de-stakeholders.md](docs/Identificación-de-stakeholders.md) · [docs/Lista-de-Stakeholders.md](docs/Lista-de-Stakeholders.md) |
 | 6 | Modelo de entidades | Cómo se relacionan jugadores, productos, ubicaciones y ventas entre sí | [docs/Modelo-de-Entidades.md](docs/Modelo-de-Entidades.md) |
-| — | Alcances y limitaciones | Qué cubre el proyecto y qué se dejó fuera (p. ej. no hay datos de inventario) | [docs/Alcances y limitaciones.md](docs/Alcances y limitaciones.md) |
+| 7 | Alcances y limitaciones | Qué cubre el proyecto y qué se dejó fuera (p. ej. no hay datos de inventario) | [docs/Alcances y limitaciones.md](docs/Alcances-y-limitaciones.md) |
 
 ### Datos y simulación
 | # | Entregable | Qué es para PimPamBoing | Ubicación |
 |---|---|---|---|
-| 7 | Descripción de fuentes | Qué contiene cada una de las 4 tablas crudas | [docs/Descripción-de-Fuentes.md](docs/Descripción-de-Fuentes.md) |
-| 8 | Diccionario de datos | Significado de cada columna del dataset maestro | [docs/Diccionario-de-Datos.md](docs/Diccionario-de-Datos.md) |
-| 9 | Reglas de simulación | Cómo se generaron los datos sintéticos de venta | [docs/Reglas-de-Simulación.md](./docs/Reglas-de-Simulación.md) |
-| 10 | Script generador | Código que produjo el dataset crudo | `src/generador.py` *(notebooks/generador_csv.ipynb)* |
-| 11 | Dataset original | Los 4 CSV/XLS crudos, tal como se recibieron | `data/crudos/` *(ProcesoETL/datos-antes)* |
-| 12 | Dataset procesado | Los 5 CSV limpios que produce el ETL | `data/limpios/` *(notebooks/datas/dataset_maestro_vividchroma.csv)* |
-| — | Justificación de los datos / Jugadores | Por qué el perfil de jugadores simulado es representativo | [docs/JUGADORES.md](./docs/JUGADORES.md) · [docs/Justificación-de-los-Datos.md](./docs/Justificación-de-los-Datos.md) |
-| — | Clasificación de tipos de datos | Tipo de dato de cada campo (categórico, numérico, fecha, etc.) | [docs/clasificacion-tipos-datos.md](./docs/clasificacion-tipos-datos.md) |
+| 8 | Descripción de fuentes | Qué contiene cada una de las 4 tablas crudas | [docs/Descripción-de-Fuentes.md](docs/Descripción-de-Fuentes.md) |
+| 9 | Diccionario de datos | Significado de cada columna del dataset maestro | [docs/Diccionario-de-Datos.md](docs/Diccionario-de-Datos.md) |
+| 9 | Reglas de simulación | Cómo se generaron los datos sintéticos de venta | [docs/Reglas-de-Simulación.md](docs/Reglas-de-Simulación.md) |
+| 10 | Script generador | Código que produjo el dataset crudo | `src/generador.py` (notebooks/generador_csv.ipynb) |
+| 11 | Dataset original | Los 4 CSV/XLS crudos, tal como se recibieron | `data/crudos/` (ProcesoETL/datos-antes/jugadores-sucio.csv) (ProcesoETL/datos-antes/productos-sucio.csv)(ProcesoETL/datos-antes/ubicaciones-sucio.csv)(ProcesoETL/datos-antes/ventas_sucias-sucio.csv)|
+| 12 | Dataset procesado | Los 5 CSV limpios que produce el ETL | `data/limpios/` *(Notebook-etl/jugadores_limpio.csv)* *(Notebook-etl/jugadores_limpio.csv)* *(Notebook-etl/productos_limpio.csv)* *(Notebook-etl/ubicaciones_limpio.csv)* *(Notebook-etl/ventas_limpio.csv)*|
+| 13 | Justificación de los datos / Jugadores | Por qué el perfil de jugadores simulado es representativo | [docs/JUGADORES.md](docs/JUGADORES.md) · [docs/Justificación-de-los-Datos.md](docs/Justificación-de-los-Datos.md) |
+| 14 | Clasificación de tipos de datos | Tipo de dato de cada campo (categórico, numérico, fecha, etc.) | [docs/clasificacion-tipos-datos.md](docs/clasificacion-tipos-datos.md) |
 
-### ETL y calidad
+### ETL 
 | # | Entregable | Qué es para PimPamBoing | Ubicación |
 |---|---|---|---|
-| 13 | Proceso ETL | Limpieza real: 116 duplicados y 68 cantidades inválidas eliminadas, nombres de producto corregidos, integridad referencial verificada | [notebooks/Proceso_ETL.ipynb](./notebooks/Proceso_ETL.ipynb) |
-| 14 | Reporte de calidad | Métricas de calidad antes/después de la limpieza, con bitácora de errores | *(pendiente de subir — ya se generó como `.docx`, falta agregarlo al repo)* |
+| 15 | Proceso ETL | Limpieza real: 116 duplicados y 68 cantidades inválidas eliminadas, nombres de producto corregidos, integridad referencial verificada | [notebooks/Proceso_ETL.ipynb](Notebook-etl/Proceso_ETL_VividChroma-Games.ipynb) |
 
 ### Análisis
 | # | Entregable | Qué es para PimPamBoing | Ubicación |
 |---|---|---|---|
-| 15 | Notebook de análisis exploratorio | Ventas en el tiempo, productos, clientes, geografía y rentabilidad | [notebooks/EDA.ipynb](./notebooks/EDA.ipynb) |
-| 16 | Catálogo de KPI | Los 4 KPI de negocio con fórmula, meta, alerta y semáforo | [notebooks/Proceso_ETL.ipynb — Etapa 7](./notebooks/Proceso_ETL.ipynb) · [docs/Reporte_Ejecutivo.md — Sección 1](./docs/Reporte_Ejecutivo.md#1-catálogo-de-kpi) |
+| 16 | Notebook de análisis exploratorio | Ventas en el tiempo, productos, clientes, geografía y rentabilidad | [notebooks/EDA.ipynb](notebooks/Proceso_EDA_VividChroma-Games.ipynb) |
+| 17 | Catálogo de KPI | Los 4 KPI de negocio con fórmula, meta, alerta y semáforo | [notebooks/Proceso_ETL.ipynb — Etapa 7](docs/Reporte_Ejecutivo-KPI.md)  |
 
 ### Dashboards
 | # | Entregable | Qué es para PimPamBoing | Ubicación |
 |---|---|---|---|
-| 17 | Dashboard del dueño | Vista ejecutiva del negocio: KPI, ventas, productos, clientes, geografía y alertas | [dashboards/dashboard_dueño](Dashboard-dueño.pbix) |
-| 18 | Dashboard del cliente | Vista personal del jugador: su historial, gasto y recompensas, sin exponer datos de otros | [dashboards/dashboard_cliente.html](./dashboards/dashboard_cliente.html) |
+| 18 | Dashboard del dueño | Vista ejecutiva del negocio: KPI, ventas, productos, clientes, geografía y alertas | [dashboards/dashboard_dueño](Dashboard-dueño.pbix) |
+| 19 | Dashboard del cliente | Vista personal del jugador: su historial, gasto y recompensas, sin exponer datos de otros | [dashboards/dashboard_cliente.html](./dashboards/dashboard_cliente.html) |
 
 ### Resultados
 | # | Entregable | Qué es para PimPamBoing | Ubicación |
 |---|---|---|---|
-| 19 | Hallazgos | Qué muestran los datos: caída de ventas 2026, Premium sin diferencia de gasto, concentración geográfica | [docs/Reporte_Ejecutivo.md — Sección 2](./docs/Reporte_Ejecutivo.md#2-hallazgos) |
-| 20 | Diagnóstico | Por qué está pasando cada hallazgo | [docs/Reporte_Ejecutivo.md — Sección 3](./docs/Reporte_Ejecutivo.md#3-diagnóstico) |
-| 21 | Recomendaciones | Qué debería hacer el negocio, priorizado y ligado a un KPI | [docs/Reporte_Ejecutivo.md — Sección 4](./docs/Reporte_Ejecutivo.md#4-recomendaciones) |
-| 22 | Reporte ejecutivo (completo) | Documento único con las 5 secciones | [docs/Reporte_Ejecutivo.md](./docs/Reporte_Ejecutivo.md) |
+| 20 | Hallazgos Diagnóstico Recomendaciones | Qué muestran los datos: caída de ventas 2026, Premium sin diferencia de gasto, concentración geográfica | [docs/Reporte_Ejecutivo.md — Sección 2](docs/Reporte_Ejecutivo-KPI.md) |
+
 
 
 ### Presentación
 | # | Entregable | Ubicación |
 |---|---|---|
-| 23 | Presentación | (docs/Diapositivas Exposicion Pasillo/PIM PAM BOING PRESENTACIÓN.mp4) |
-|
-"# VividChromaGames" 
+| 21 | Presentación | (docs/DiapositivasExposicionPasilloPIMPAMPRESENTACIÓN.mp4) |
