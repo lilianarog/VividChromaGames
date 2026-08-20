@@ -57,7 +57,7 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 ### Dashboards
 | # | Entregable | Qué es para PimPamBoing | Ubicación |
 |---|---|---|---|
-| 18 | Dashboard del dueño | Vista ejecutiva del negocio: KPI, ventas, productos, clientes, geografía y alertas | [dashboards/dashboard_dueño](Dashboard-dueño.pbix) |
+| 18 | Dashboard del dueño | Vista ejecutiva del negocio: KPI, ventas, productos, clientes, geografía y alertas | [dashboards/dashboard_dueño](Dashboard-dueño.pdf) |
 | 19 | Dashboard del cliente | Vista personal del jugador: su historial, gasto y recompensas, sin exponer datos de otros | [dashboards/dashboard_cliente.html]( https://lilianarog.github.io/Repositorio-De-Entrega-PimpamBoing/) |
 
 ### Resultados
