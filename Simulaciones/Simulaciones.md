@@ -7,7 +7,7 @@ El propósito principal de esta simulación fue explorar la manera en que las co
 
 Se desarrolló un notebook básico en el que se importaron únicamente las librerías necesarias para crear esta primera simulación y generar las visualizaciones correspondientes.
 
-![importacion_imagen5](simulaciones/images-sim/img5-sim.png)
+![importacion_imagen5](images-sim/img5-sim.png)
 
 Posteriormente, las coordenadas fueron colocadas directamente en una celda del notebook para construir un pequeño conjunto de datos de manera manual. Una vez validado su funcionamiento, este dataset fue exportado para posteriormente cargarlo nuevamente y utilizarlo como base en las diferentes simulaciones realizadas.
 
