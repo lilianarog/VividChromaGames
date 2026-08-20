@@ -37,11 +37,7 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 | 8 | Descripción de fuentes | Qué contiene cada una de las 4 tablas crudas | [docs/Descripción-de-Fuentes.md](docs/Descripción-de-Fuentes.md) |
 | 9 | Diccionario de datos | Significado de cada columna del dataset maestro | [docs/Diccionario-de-Datos.md](docs/Diccionario-de-Datos.md) |
 | 9 | Reglas de simulación | Cómo se generaron los datos sintéticos de venta | [docs/Reglas-de-Simulación.md](docs/Reglas-de-Simulación.md) |
-| 10 | Script generador | Código que produjo el dataset crudo | [`notebooks/generador_csv.ipynb`](./notebooks/generador_csv.ipynb) |
-| # | Descripción | Detalle | Enlaces / Rutas |
-|---|---|---|---|
-| # | Descripción | Detalle | Enlaces / Rutas |
-|---|---|---|---|
+| 10 | Script generador | Código que produjo el dataset crudo | [Generador](./notebooks/generador_csv.ipynb) |
 | **11** | **Dataset original** | Los 4 CSV/XLS crudos, tal como se recibieron | • [`jugadores-sucio.csv`](ProcesoETL/datos-antes/jugadores-sucio.csv)<br>• [`productos-sucio.csv`](ProcesoETL/datos-antes/productos-sucio.csv)<br>• [`ubicaciones-sucio.csv`](ProcesoETL/datos-antes/ubicaciones-sucio.csv)<br>• [`ventas_sucias-sucio.csv`](./ProcesoETL/datos-antes/ventas_sucias-sucio.csv) |
 | **12** | **Dataset procesado** | Los CSV limpios que produce el ETL | • [`jugadores_limpio.csv`](Notebook-etl/jugadores_limpio.csv)<br>• [`productos_limpio.csv`](Notebook-etl/productos_limpio.csv)<br>• [`ubicaciones_limpio.csv`](Notebook-etl/ubicaciones_limpio.csv)<br>• [`ventas_limpio.csv`](Notebook-etl/ventas_limpio.csv) |
 | 13 | Justificación de los datos / Jugadores | Por qué el perfil de jugadores simulado es representativo | [docs/JUGADORES.md](docs/JUGADORES.md) · [docs/Justificación-de-los-Datos.md](docs/Justificación-de-los-Datos.md) |
