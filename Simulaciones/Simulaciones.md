@@ -11,20 +11,19 @@ Se desarrolló un notebook básico en el que se importaron únicamente las libre
 
 Posteriormente, las coordenadas fueron colocadas directamente en una celda del notebook para construir un pequeño conjunto de datos de manera manual. Una vez validado su funcionamiento, este dataset fue exportado para posteriormente cargarlo nuevamente y utilizarlo como base en las diferentes simulaciones realizadas.
 
-![importacion_imagen4](simulaciones/images-sim/img4-sim.png)
+![importacion_imagen4](images-sim/img4-sim.png)
 
 La primera visualización permitió observar un mapa en el que las **ventas** fueron representadas mediante marcadores de color morado. Además, el tamaño de cada marcador varía dependiendo de la cantidad de ventas registradas en esa zona, lo que facilita identificar de manera rápida las áreas con mayor actividad.
 
-![importacion_imagen3](simulaciones/images-sim/img3-sim.png)
+![importacion_imagen3](images-sim/img3-sim.png)
 
 También se generó una representación gráfica donde se comparan las **instalaciones** del videojuego con las **compras** realizadas. Esta visualización permitió tener una primera idea de la relación existente entre ambos indicadores y cómo podrían analizarse posteriormente con datos reales.
 
-![importacion_imagen2](simulaciones/images-sim/img2-sim.png)
+![importacion_imagen2](images-sim/img2-sim.png)
 
 Finalmente, se realizó un segundo mapa de prueba enfocado exclusivamente en las ventas. Este ejercicio permitió comprobar diferentes formas de representar la información geográfica y evaluar cuál sería la más clara y útil para la interpretación de los datos.
 
-![importacion_imagen1](simulaciones/images-sim/img1-sim.png)
-
+![importacion_imagen1](images-sim/img1-sim.png)
 # ¿Por qué nos fue útil esta simulación?
 
 Aunque esta simulación fue elaborada con datos ficticios, resultó de gran utilidad durante las primeras etapas del proyecto. Nos permitió comprender el flujo completo de trabajo, desde la creación del conjunto de datos hasta su representación visual en mapas y gráficas.
