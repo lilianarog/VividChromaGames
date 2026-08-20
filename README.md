@@ -37,7 +37,7 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 | 8 | Descripción de fuentes | Qué contiene cada una de las 4 tablas crudas | [docs/Descripción-de-Fuentes.md](docs/Descripción-de-Fuentes.md) |
 | 9 | Diccionario de datos | Significado de cada columna del dataset maestro | [docs/Diccionario-de-Datos.md](docs/Diccionario-de-Datos.md) |
 | 9 | Reglas de simulación | Cómo se generaron los datos sintéticos de venta | [docs/Reglas-de-Simulación.md](docs/Reglas-de-Simulación.md) |
-| 10 | Script generador | Código que produjo el dataset crudo | `src/generador.py` (notebooks/generador_csv.ipynb) |
+| 10 | Script generador | Código que produjo el dataset crudo | [`notebooks/generador_csv.ipynb`](./notebooks/generador_csv.ipynb) |
 | # | Descripción | Detalle | Enlaces / Rutas |
 |---|---|---|---|
 | # | Descripción | Detalle | Enlaces / Rutas |
