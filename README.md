@@ -21,8 +21,7 @@ Liliana Rosales Gomez - 230370
 
 **Dashboard del cliente** (`dashboards/dashboard_cliente.html`) — Panel personal por jugador: buscas tu ID y ves solo tu propia información (historial de compras, gasto por categoría, producto y categoría favorita, nivel de "explorador" calculado con tu gasto real, beneficios de tu suscripción, y una recomendación de producto explicada). Nunca muestra información de otros jugadores — cumple el requisito de privacidad de la Etapa 9.
 
-## Cómo correr el proyecto
-
+![Imagen ](diagrama.png)
 
 
 ## Entregables del proyecto
