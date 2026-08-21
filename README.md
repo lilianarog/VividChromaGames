@@ -77,5 +77,5 @@ Liliana Rosales Gomez - 230370
 ### Presentación
 | # | Entregable | Ubicación |
 |---|---|---|
-| 21 | Presentación | (docs/DiapositivasExposicionPasilloPIMPAMPRESENTACIÓN.mp4) |
+| 21 | Presentación | (PIMPAMBOINGPRESENTACIÓN_compressed.pdf) |
 
