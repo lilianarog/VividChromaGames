@@ -6,7 +6,7 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 
 # Integrantes
 Samantha SalazarFernández - 230004
-Adriana Rosales
+Adriana Rosales Gayosso
 
 ## Qué se hizo en cada parte técnica
 
