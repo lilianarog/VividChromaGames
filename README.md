@@ -3,6 +3,10 @@
 
 Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026). PimPamBoing es un videojuego infantil de VividChroma Games con una tienda de mercancía física (mochilas, stickers, peluches, cómics) en el estado de Puebla. Este repositorio documenta el proyecto de punta a punta: generación y limpieza de datos, análisis exploratorio, catálogo de KPI, dashboards interactivos para el dueño y para el cliente, y el reporte ejecutivo con hallazgos y recomendaciones de negocio.
 
+
+# Integrantes
+
+
 ## Qué se hizo en cada parte técnica
 
 **Proceso ETL** (`notebooks/Proceso_ETL.ipynb`) — Extrae las 4 fuentes crudas (jugadores, productos, ubicaciones, ventas), audita y limpia `ventas_sucias` (116 duplicados exactos y 68 registros con cantidad inválida eliminados), corrige nombres de producto mal capturados, verifica integridad referencial entre tablas, une las 4 fuentes en un dataset maestro y calcula Ingreso Total, Costo Total y Utilidad por transacción. Incluye el catálogo de 4 KPI de negocio (Etapa 7) con metas, alertas y semáforos. Exporta 5 CSV limpios listos para el análisis.
@@ -15,9 +19,7 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 
 ## Cómo correr el proyecto
 
-1. Corre `notebooks/Proceso_ETL.ipynb` de principio a fin — genera los CSV limpios.
-2. Corre `notebooks/EDA.ipynb` — lee esos CSV y genera el análisis.
-3. Abre los dashboards `.html` en `dashboards/` directo en el navegador (no requieren instalación).
+
 
 ## Entregables del proyecto
 
