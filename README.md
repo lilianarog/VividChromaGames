@@ -73,5 +73,5 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 ### Presentación
 | # | Entregable | Ubicación |
 |---|---|---|
-| 21 | Presentación | (docs/DiapositivasExposicionPasilloPIMPAMPRESENTACIÓN.mp4) |
+| 21 | Presentación | [DiapositivasExposicionPasilloPIMPAMPRESENTACIÓN.mp4] |
 
