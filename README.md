@@ -5,7 +5,7 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 
 
 # Integrantes
-fgfdrfg
+fg
 
 ## Qué se hizo en cada parte técnica
 
