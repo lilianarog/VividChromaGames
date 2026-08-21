@@ -8,7 +8,8 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 Samantha Salazar Fernández - 230004 <br>
 Adriana Rosales Gayosso - 230671 <br>
 Ilse Guadalupe Saavedra Villa - 230349 <br>
-Angelica Citlali Gutiérrez Ortega - 230426
+Angelica Citlali Gutiérrez Ortega - 230426 <br>
+Liliana Rosales Gomez - 230370
 
 ## Qué se hizo en cada parte técnica
 
