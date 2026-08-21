@@ -1,3 +1,4 @@
+
 # PimPamBoing — Proyecto Integrador
 
 Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026). PimPamBoing es un videojuego infantil de VividChroma Games con una tienda de mercancía física (mochilas, stickers, peluches, cómics) en el estado de Puebla. Este repositorio documenta el proyecto de punta a punta: generación y limpieza de datos, análisis exploratorio, catálogo de KPI, dashboards interactivos para el dueño y para el cliente, y el reporte ejecutivo con hallazgos y recomendaciones de negocio.
@@ -71,3 +72,4 @@ Proyecto final de Ciencia de Datos y Analítica de Negocios (Mayo–Agosto 2026)
 | # | Entregable | Ubicación |
 |---|---|---|
 | 21 | Presentación | (docs/DiapositivasExposicionPasilloPIMPAMPRESENTACIÓN.mp4) |
+
