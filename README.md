@@ -10,7 +10,7 @@ Adriana Rosales Gayosso - 230671 <br>
 Ilse Guadalupe Saavedra Villa - 230349 <br>
 Angelica Citlali Gutiérrez Ortega - 230426 <br>
 Liliana Rosales Gomez - 230370
-
+![Imagen ](Organigrama.png)
 ## Qué se hizo en cada parte técnica
 
 **Proceso ETL** (`notebooks/Proceso_ETL.ipynb`) — Extrae las 4 fuentes crudas (jugadores, productos, ubicaciones, ventas), audita y limpia `ventas_sucias` (116 duplicados exactos y 68 registros con cantidad inválida eliminados), corrige nombres de producto mal capturados, verifica integridad referencial entre tablas, une las 4 fuentes en un dataset maestro y calcula Ingreso Total, Costo Total y Utilidad por transacción. Incluye el catálogo de 4 KPI de negocio (Etapa 7) con metas, alertas y semáforos. Exporta 5 CSV limpios listos para el análisis.
